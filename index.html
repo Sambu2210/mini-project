@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/icons/ficon.png">
+    <title>Benedicta</title>
+    <script src="js/animation.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/color-mode.js" defer></script>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/coler-mode.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="hero">
+        <h5>Hello I'm</h5>
+        <h1>Benedicta Rocquelin</h1>
+        <!-- <p>Web Developer</p> -->
+        <div id="hero_animation">
+            <div id="hero_animation_img"></div>
+        </div>
+    </div> 
+    <nav id="grid">
+        <div id="grid-tl">
+            <div id="grid-tl-btn">About</div>
+            <div id="grid-tl-content">
+                <div class="cards">
+                    <div class="card-content">
+                        <article>
+                            <img src="./assets/icons/education.png" alt="education icon" class="icon">
+                            <h2>Education</h2>
+                            <p>BCA</p>
+                        </article>
+                        <div class="cards-content-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, eligendi.
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <article>
+                            <img src="./assets/icons/education.png" alt="education icon" class="icon">
+                            <h2>Education</h2>
+                            <p>MCA</p>
+                        </article>
+                        <div class="cards-content-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, eligendi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="grid-tr">
+            <div id="grid-tr-btn">Experience</div>
+            <div id="grid-tr-content">
+                <div class="cards experience">
+                    <article class="experience-skils">
+                        <h2>Technical Experience</h2>
+                        <div>
+                            <img src="./assets/icons/checkmark.png" alt="checkmark icon" class="icon">
+                            <div>
+                                <h2>HTML</h2>
+                                <p>Experienced</p>
+                            </div>    
+                         </div>
+                         <div>
+                            <img src="./assets/icons/checkmark.png" alt="checkmark icon" class="icon">
+                            <div>
+                                <h2>CSS</h2>
+                                <p>Experienced</p>
+                            </div>    
+                         </div>
+                         <div>
+                            <img src="./assets/icons/checkmark.png" alt="checkmark icon" class="icon">
+                            <div>
+                                <h2>Javascript</h2>
+                                <p>Experienced</p>
+                            </div>    
+                         </div>
+                    </article>
+                    <!-- <article class="experience-skils">
+                        <h2>Fronend Development</h2>
+                        <div>
+                            <img src="./assets/icons/checkmark.png" alt="checkmark icon" class="icon">
+                            <div>
+                                <h2>HTML</h2>
+                                <p>Experienced</p>
+                            </div>    
+                         </div>
+                         <div>
+                            <img src="./assets/icons/checkmark.png" alt="checkmark icon" class="icon">
+                            <div>
+                                <h2>CSS</h2>
+                                <p>Experienced</p>
+                            </div>    
+                         </div>
+                    </article> -->
+                </div>
+            </div>
+        </div>
+        <div id="grid-bl">
+            <div id="grid-bl-btn">Projects</div>
+            <div id="grid-bl-content">
+                <div id="grid-bl-content-projects">
+                    <div class="project p-1">
+                        <img src="assets/portfolio-projects/project-1-dark.jpg" alt="project 1" class="project-img">
+                        <h2 class="project-title">Project1</h2>
+                        <button class="btn" onclick="window.location.href=`http://netlify.com`">Demo</button>
+                        <button class="btn" onclick="window.location.href=`http://github.com`">GitHub</button>
+                    </div>
+                    <div class="project p-2">
+                        <img src="assets/portfolio-projects/project-2-dark.png" alt="project 2" class="project-img">
+                        <h2 class="project-title">Project 2</h2>
+                        <button class="btn" onclick="window.location.href=`http://netlify.com`">Demo</button>
+                        <button class="btn" onclick="window.location.href=`http://github.com`">GitHub</button>
+                    </div>
+                    <button class="arrow" onclick="navigateProject(-1)"> &#10094;</button>
+                    <button class="arrow" onclick="navigateProject(1)"> &#10095;</button>
+                </div>
+                
+            </div>
+        </div>
+        <div id="gird-br">
+            <div id="grid-br-btn">Contact</div>
+            <div id="grid-br-content">
+                <h5 class="contact-text">Get In Touch</h5>
+                <h2 class="contact-text">Contact Me</h2>
+                <div>
+                    <button class="btn btn-contact" onclick="window.location.href=`mailto:balajiprakash2210@gmail.com`">Email</button>
+                    <button class="btn btn-contact" onclick="window.location.href=`https://www.linkedin.com`">Linkedin</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="color-mode">
+        <div id="toggle-btn" class="icon">
+        </div>
+    </div>
+</body>
+</html>
